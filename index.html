@@ -1,0 +1,237 @@
+<!-- 18Espinosa, Derick James M. -->
+<!-- March 05, 2023 -->
+<!-- Me, Myself, And I: An html project about myself -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me, Myself, and I</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/ios-glyphs/256/sleeping.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body bgcolor="slategray">
+    <font face="roboto">
+      <table border="1">
+        <tr align="center">
+          <td>
+            <h1>
+              <strong><em>Me, Myself, and I</em></strong>
+            </h1>
+            <hr />
+            <h2><em>HELLO</em>!</h2>
+            <img
+              src="https://airsick-lowlander.netlify.app/static/media/profile_img_400x400.eed0f4c1129fecb24bf9.jpg"
+              alt="I'm Derick James!"
+              width="100"
+              height="100"
+              border="3"
+            />
+            <h3>
+              I am
+              <br />
+              <em>
+                <u>
+                  <mark bgcolor="azure">Derick James M. Espinosa</mark>
+                </u>
+              </em>
+            </h3>
+            <hr />
+            <table width="35%">
+              <tr valign="top">
+                <td>
+                  <br />
+                  <font size="5" face="Jetbrains Mono">whoami</font>
+                  <br />
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Explicabo nobis officiis veniam accusantium neque? Cumque
+                    debitis vero alias vitae? Fugiat necessitatibus est, dicta
+                    perspiciatis minima odit ut enim consequuntur maxime?
+                  </p>
+                  <hr color="black" />
+                  <br />
+                  <font size="5" face="Jetbrains Mono">myhobbies</font>
+                  <table width="100%">
+                    <tr valign="top">
+                      <td>
+                        <ul>
+                          <li>
+                            Watching Movies <br />
+                            and TV Series
+                          </li>
+                          <li>Playing <br />Mobile Games</li>
+                          <li>Reading</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul>
+                          <li>Listening to music</li>
+                          <li>Coding</li>
+                          <li>Sleeping</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr color="black" />
+                  <br />
+                  <font size="5" face="Jetbrains Mono">mylinks</font>
+                  <br />
+                  <ul>
+                    <li>
+                      <a href="https://airsick-lowlander.netlify.app">
+                        <b>my mini-site</b>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://facebook.com/the2ndpercyfied">
+                        <b>facebook</b>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:derickjames@tup.edu.ph"><b>email</b></a>
+                    </li>
+                  </ul>
+                  <hr color="black" />
+                  <font size="5" face="Jetbrains Mono">
+                    <h4>more aboutme</h4>
+                  </font>
+                  <hr color="black" />
+
+                  <font size="5" face="Jetbrains Mono"><h4>emailme</h4></font>
+                  <form action="#sendMsg">
+                    <textarea
+                      name="messagebox"
+                      id="sendMsg"
+                      cols="50%"
+                      rows="10"
+                      wrap="hard"
+                      draggable="false"
+                      placeholder="hi!"
+                    ></textarea>
+                    <br />
+                    <input type="submit" value="&nbsp;Send&nbsp;" />
+                  </form>
+                  <br />
+                  <hr color="black" />
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <font size="5" face="Jetbrains Mono">
+                    <h4 id="tellme">tell me about u</h4>
+                  </font>
+                  <form action="#tellme">
+                    <table width="75%" cellpadding="15">
+                      <tr>
+                        <td><label for="name">urname: &nbsp;</label></td>
+                        <td>
+                          <input type="text" name="name" placeholder="name" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="email">uremail: &nbsp;</label></td>
+                        <td>
+                          <input
+                            type="email"
+                            name="email"
+                            placeholder="email"
+                          />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="age">urage: &nbsp;</label></td>
+                        <td>
+                          <input type="number" name="age" placeholder="age" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="birthday">urbirth: &nbsp;</label></td>
+                        <td>
+                          <input
+                            type="datetime-local"
+                            name="birthday"
+                            placeholder="birthday"
+                          />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><label for="birthday">ursign: &nbsp;</label></td>
+                        <td>
+                          <input
+                            type="text"
+                            id="txtList"
+                            placeholder="sign"
+                            list="signs"
+                          />
+                          <datalist id="signs">
+                            <option value="Pisces"></option>
+                            <option value="Cancer"></option>
+                            <option value="Leo"></option>
+                            <option value="Capricorn"></option>
+                            <option value="Aquarius"></option>
+                            <option value="Libra"></option>
+                            <option value="Virgo"></option>
+                            <option value="Aries"></option>
+                            <option value="Scorpio"></option>
+                            <option value="Taurus"></option>
+                            <option value="Sagittarius"></option>
+                            <option value="Gemini"></option>
+                          </datalist>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <label for="urhobbies">urhobbies: &nbsp;</label>
+                        </td>
+                        <td>
+                          <textarea
+                            name="urhobbies"
+                            id="hobbies"
+                            cols="20"
+                            rows="4"
+                            wrap="hard"
+                            draggable="false"
+                            placeholder="hi!"
+                          ></textarea>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td><label for="checkbox">checkbox: &nbsp;</label></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td><label for="radio">radio: &nbsp;</label></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <input type="submit" value=" Send " />
+                        </td>
+                        <td align="right">
+                          <input type="submit" value=" Clear " />
+                        </td>
+                      </tr>
+                    </table>
+                  </form>
+                  <br />
+                  <hr color="black" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </font>
+  </body>
+</html>
